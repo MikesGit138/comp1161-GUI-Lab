@@ -39,6 +39,8 @@ public class PersonEntry extends JFrame
        
         cmdSave = new JButton("Save");
         cmdClose = new JButton("Close");
+        cmdSave.setBackground(Color.GREEN);
+        cmdClose.setBackground(Color.RED);
 
         pnlCommand.add(cmdSave);
         pnlCommand.add(cmdClose);
